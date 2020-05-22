@@ -9,3 +9,4 @@ RUN cpanm Carton Starman --force
 RUN cpanm Carton Ubic --force
 RUN cpanm Carton Ubic::Service::Plack --force
 RUN ubic-admin setup --batch-mode
+RUN ubic start ubic
