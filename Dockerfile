@@ -14,4 +14,5 @@ RUN cpanm Carton IO::Pty --force
 RUN cpanm Carton REST::Client IPC::ShareLite --force
 RUN cpanm Carton Proc::Simple --force
 RUN cpanm Carton Data::Serializer Time::Zone --force
+RUN cpanm Carton Time::ParseDate --force
 RUN ubic-admin setup --batch-mode
